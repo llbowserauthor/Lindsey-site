@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lindsey's Website</title>
+
+<style>
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family: system-ui, Arial;
+background: linear-gradient(135deg,#ff7e5f,#feb47b);
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:#333;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:16px;
+box-shadow:0 20px 40px rgba(0,0,0,0.2);
+max-width:700px;
+width:100%;
+}
+
+h1{
+font-size:2.8rem;
+margin-bottom:10px;
+}
+
+.subtitle{
+font-size:1.2rem;
+margin-bottom:25px;
+color:#666;
+}
+
+img{
+width:320px;
+max-width:90%;
+margin:20px auto;
+display:block;
+}
+
+.progress-container{
+background:#eee;
+border-radius:20px;
+overflow:hidden;
+margin:25px 0;
+}
+
+.progress-bar{
+height:18px;
+width:0%;
+background:linear-gradient(90deg,#ff6b6b,#ffb347);
+animation:load 4s forwards;
+}
+
+@keyframes load{
+from{width:0}
+to{width:80%}
+}
+
+.status{
+margin-top:10px;
+font-weight:600;
+color:#444;
+}
+
+.tape{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+background: repeating-linear-gradient(
+45deg,
+#ffd700,
+#ffd700 20px,
+#000 20px,
+#000 40px
+);
+color:black;
+font-weight:bold;
+padding:8px;
+text-align:center;
+letter-spacing:2px;
+}
+
+footer{
+margin-top:25px;
+font-size:0.9rem;
+color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="tape">
+⚠ WEBSITE UNDER CONSTRUCTION ⚠ WEBSITE UNDER CONSTRUCTION ⚠
+</div>
+
+<div class="card">
+
+<h1>🚧 Lindsey's Website</h1>
+
+<p class="subtitle">
+Currently being built by Lindsey herself!
+</p>
+
+<img src="lindsey.png" alt="Lindsey building website">
+
+<div class="progress-container">
+<div class="progress-bar"></div>
+</div>
+
+<div class="status">
+Construction progress: 80%
+</div>
+
+<footer>
+Something exciting is coming soon 👀
+</footer>
+
+</div>
+
+</body>
+</html>
